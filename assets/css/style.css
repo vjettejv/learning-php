@@ -117,3 +117,6 @@ input, #message{
     cursor: pointer;
     transition: background-color 0.3s;
 }
+.btn:hover{
+    color: #0056b3;
+}
