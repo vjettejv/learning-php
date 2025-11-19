@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="header">
+        <ul id="nav">
+            <li><a href="#">Home</a></li>         
+            <li><a href="#shop">Shop</a></li>         
+            <li><a href="#new">New</a></li>         
+            <li><a href="#sale">Sale</a></li>     
+        </ul>
+    </div>
+    <table id="alltable" border="1">
+        <thead id="thead">
+            <tr>
+            <th>STT</th>
+            <th>Họ và tên</th>
+            <th>Lớp</th>
+            <th>Mã Sinh viên</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+            <tr id="tr1">
+                <td>1</td>
+                <td>Nguyễn Hà Đức Việt</td>
+                <td>74DCTT24</td>
+                <td>74DCTT22482</td>
+            </tr>
+            <tr id="tr2">
+                <td>2</td>
+                <td>Đoàn Ngọc Anh</td>
+                <td>74DCTT24</td>
+                <td>74DCTT22442</td>
+            </tr>
+             <tr id="tr3">
+                <td>3</td>
+                <td>Đoàn Ngọc Anh</td>
+                <td>74DCTT24</td>
+                <td>74DCTT22442</td>
+            </tr>
+             <tr id="tr4">
+                <td>4</td>
+                <td>Đoàn Ngọc Anh</td>
+                <td>74DCTT24</td>
+                <td>74DCTT22442</td>
+            </tr>
+             <tr id="tr5">
+                <td>5</td>
+                <td>Đoàn Ngọc Anh</td>
+                <td>74DCTT24</td>
+                <td>74DCTT22442</td>
+            </tr>
+            <tr></tr>
+        </tbody>
+        <tfoot id="tfoot">
+            <tr>
+                <td colspan="4">Tổng số sinh viên 2</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h2 id="nameform">Form Liên Hệ</h2>
+    <form id="formmain" action="#" method="post">
+        <label for="name">Họ và tên:</label><br>
+        <input type="text" id="name" name="name" placeholder="Nhập họ và tên" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Nhập email" required><br><br>
+
+        <label for="message">Lời nhắn:</label><br>
+        <textarea id="message" name="message" placeholder="Nhập lời nhắn" rows="4" cols="50" required></textarea><br><br>
+
+        <input class="btn" type="submit" value="Gửi">
+    </form>
+</body>
+</html>
